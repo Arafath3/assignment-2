@@ -448,7 +448,6 @@ nav {
 }
 
 .sec5-contain h2 {
-    width: 426px;
     color: #FFF;
     font-size: 48px;
     font-weight: 700;
@@ -490,13 +489,40 @@ nav {
     border: none;
     color: #FF42A5;
 }
+.rs-img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
 
 .country-names {
     margin-left: 100px;
 }
 
 /* Section 5 responsive */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .section-5{
+        width: auto;
+        height: auto;
+    }
+    .sec5-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+
+    }
+    .country-names{
+        margin-left: 0px;
+    }
+    .sec5-contain p{
+        width: 400px;
+    }
+    .unique{
+        margin-bottom: 10px;
+    }
+
+
+}
 
 /* section 6 starts here */
 .section-6 {
@@ -539,7 +565,11 @@ nav {
 }
 
 /* Section 6 responsive */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .items{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 /* footer start */
 footer {
