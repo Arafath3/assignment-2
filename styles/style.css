@@ -224,6 +224,7 @@ nav {
 
 .main-description {
     margin-left: 55px;
+    width: 520px;
 
 }
 
@@ -266,7 +267,8 @@ nav {
 
     .main-description {
         text-align: center;
-        margin-right: 10px;
+        margin-right: 40px;
+        width: 100%;
     }
 
     .main-img img {
