@@ -197,7 +197,8 @@ nav {
         padding: 10px 50px;
         text-align: center;
     }
-    .btn-secondary{
+
+    .btn-secondary {
         margin-left: 0px;
         margin-top: 10px;
     }
@@ -260,14 +261,15 @@ nav {
         flex-direction: column;
         padding: 10px;
         text-align: center;
-    
+
     }
-    .main-description{
+
+    .main-description {
         text-align: center;
         margin-right: 10px;
     }
 
-    .main-img img{
+    .main-img img {
         width: 80%;
     }
 
@@ -301,11 +303,16 @@ nav {
 
 /* section-2 responsive */
 @media screen and (max-width: 576px) {
-    .img-collage{
+    .img-collage {
         flex-direction: column;
     }
-    .section-2{
+
+    .section-2 {
         margin-top: 800px;
+    }
+
+    .img-box {
+        margin-top: 40px;
     }
 }
 
@@ -337,25 +344,56 @@ nav {
     position: relative;
     bottom: 270px;
     right: 170px;
-    width: 318.5px;
-    height: 365.083px;
+    /* width: 318.5px;
+    height: 365.083px; */
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+
 
 }
 
 .sec3-img {
     margin-top: 120px;
-    width: 634.833px;
-    height: 650px;
+    /* width: 634.833px;
+    height: 650px; */
+    object-fit: contain;
+    width: 100%;
+    height: auto;
 }
 
 /* section-3 responsive */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .sec3-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bar {
+        width: 80%;
+    }
+
+    .sec3-img {
+        width: 100%;
+    }
+
+    .bar1 {
+        width: 50%;
+        margin-left: 80px;
+        margin-top: 120px;
+        
+    }
+}
 
 /* section-4 starts here */
 .section-4 {
     margin-top: 120px;
     text-align: center;
 }
+.sec4-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
 
 .img-bar2 {
     position: relative;
@@ -367,12 +405,34 @@ nav {
 }
 
 .sec4-img {
-    width: 710px;
-    height: 650px;
+    /* width: 710px;
+    height: 650px; */
+    object-fit: contain;
+    width: 100%;
+    height: auto;
 }
 
 /* section-4 responsive */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .sec4-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .sec4-img{
+        margin-top: 50px;
+        width: 80%;
+    }
+    .sec3-contain{
+        margin-bottom: 30px;
+    }
+    .img-bar2{
+        position: relative;
+        bottom: 250px;
+        left: -115px;
+    
+    }
+}
 
 /* section-5 starts */
 .section-5 {
