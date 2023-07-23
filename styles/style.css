@@ -20,6 +20,20 @@
     cursor: pointer;
 }
 
+.shared-style {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.shared-text-style {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@500;600;700;800&display=swap');
 
@@ -88,6 +102,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-image: url('../images/Group 14.png');
+    background-repeat: no-repeat;
 }
 
 .first-text {
@@ -113,9 +129,7 @@ nav {
     text-transform: lowercase;
     margin-top: 15px;
 }
-.header-texts{
-    background-image: url("./images/Group 14.png");
-}
+
 
 .header-btn {
     margin-top: 60px;
@@ -133,4 +147,96 @@ nav {
     font-weight: 600;
     border: none;
     cursor: pointer;
+}
+
+/* Header section Responsive */
+/* small device */
+@media screen and (max-width: 576px) {
+
+    .nav-container,
+    .nav-left,
+    .nav-option {
+        flex-direction: column;
+    }
+
+    nav {
+        box-shadow: none;
+    }
+
+    .nav-container {
+        padding: 20px;
+    }
+
+    .header-container {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+
+}
+
+/* Main section starts */
+/* Section 1 starts here */
+.section-1 {
+    width: 1920px;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    padding: 60px 240px;
+}
+
+.main-description {
+    margin-left: 55px;
+
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.description1 {
+    margin-bottom: 32px;
+
+}
+
+.description2 {
+    margin-top: 24px;
+}
+
+.description3 {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Section-1 Responsive */
+@media screen and (max-width: 576px) {}
+
+/* section-2 starts here */
+.section-2 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.img-collage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 25px;
+    
+}
+
+.img-box {
+    width: 342px;
+    height: 400px;
 }
