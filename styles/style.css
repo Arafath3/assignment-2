@@ -305,3 +305,66 @@ nav {
     width: 710px;
     height: 650px;
 }
+
+/* section-4 responsive */
+@media screen and (max-width: 576px) {}
+
+/* section-5 starts */
+.section-5 {
+    width: 1920px;
+    height: 821px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.sec5-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec5-contain h2 {
+    width: 426px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+
+.sec5-contain p {
+    width: 680px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    margin-bottom: 32px;
+
+}
+
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.unique {
+    margin-top: 40px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    color: #FF42A5;
+}
+.country-names{
+    margin-left: 100px;
+}
