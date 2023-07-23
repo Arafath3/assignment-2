@@ -381,7 +381,7 @@ nav {
         width: 50%;
         margin-left: 80px;
         margin-top: 120px;
-        
+
     }
 }
 
@@ -390,10 +390,12 @@ nav {
     margin-top: 120px;
     text-align: center;
 }
+
 .sec4-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;}
+    justify-content: space-around;
+}
 
 .img-bar2 {
     position: relative;
@@ -414,23 +416,26 @@ nav {
 
 /* section-4 responsive */
 @media screen and (max-width: 576px) {
-    .sec4-container{
+    .sec4-container {
         flex-direction: column-reverse;
         text-align: center;
         align-items: center;
     }
-    .sec4-img{
+
+    .sec4-img {
         margin-top: 50px;
         width: 80%;
     }
-    .sec3-contain{
+
+    .sec3-contain {
         margin-bottom: 30px;
     }
-    .img-bar2{
+
+    .img-bar2 {
         position: relative;
         bottom: 250px;
         left: -115px;
-    
+
     }
 }
 
@@ -489,7 +494,8 @@ nav {
     border: none;
     color: #FF42A5;
 }
-.rs-img{
+
+.rs-img {
     object-fit: contain;
     width: 100%;
     height: auto;
@@ -501,23 +507,27 @@ nav {
 
 /* Section 5 responsive */
 @media screen and (max-width: 576px) {
-    .section-5{
+    .section-5 {
         width: auto;
         height: auto;
     }
-    .sec5-container{
+
+    .sec5-container {
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
 
     }
-    .country-names{
+
+    .country-names {
         margin-left: 0px;
     }
-    .sec5-contain p{
+
+    .sec5-contain p {
         width: 400px;
     }
-    .unique{
+
+    .unique {
         margin-bottom: 10px;
     }
 
@@ -566,8 +576,8 @@ nav {
 
 /* Section 6 responsive */
 @media screen and (max-width: 576px) {
-    .items{
-        grid-template-columns: repeat(1,1fr);
+    .items {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -638,4 +648,25 @@ footer p {
     font-size: 16px;
     font-weight: 500;
     margin-top: 50px;
+}
+
+/* footer section responsive */
+@media screen and (max-width: 576px) {
+    footer {
+        width: auto;
+        height: auto;
+    }
+
+    .acores {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .terms-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer p{
+        margin: 0px 20px ;
+    }
 }
